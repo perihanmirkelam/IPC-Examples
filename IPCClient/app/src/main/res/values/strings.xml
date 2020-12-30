@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IPCClient</string>
+    <string name="process_id_of_server">Process ID of Server</string>
+    <string name="connection_count_of_server">Connection Count of Server</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="say_something_to_server">Say Something to the Server</string>
+    <string name="salut">Salut!</string>
+</resources>
