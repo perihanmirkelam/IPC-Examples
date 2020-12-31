@@ -1,22 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.messenger.MessengerFragment">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
 
     <TextView
-        android:id="@+id/text_messenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/say_something_to_server"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_client_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/salut"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Connect via Messenger"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_client_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/process_id_of_server"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_server_pid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/connection_count_of_server"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_server_connection_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp" />
+    </LinearLayout>
+</LinearLayout>
