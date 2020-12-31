@@ -20,6 +20,7 @@
             android:name=".IPCServerService">
             <intent-filter>
                 <action android:name="aidlexample" />
+                <action android:name="messengerexample" />
             </intent-filter>
         </service>
     </application>

@@ -1,4 +1,4 @@
-package com.pmirkelam.ipcclient
+package com.pmirkelam.ipcclient.ui
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -8,6 +8,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.pmirkelam.ipcclient.R
 import com.pmirkelam.ipcclient.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
