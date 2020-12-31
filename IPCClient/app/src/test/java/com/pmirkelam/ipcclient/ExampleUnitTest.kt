@@ -1,4 +1,4 @@
-package com.pmirkelam.ipcserver
+package com.pmirkelam.ipcclient
 
 import org.junit.Test
 

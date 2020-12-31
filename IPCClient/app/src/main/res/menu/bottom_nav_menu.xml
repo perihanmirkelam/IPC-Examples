@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_aidl"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/title_aidl" />
+
+    <item
+        android:id="@+id/navigation_messenger"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_messenger" />
+
+    <item
+        android:id="@+id/navigation_broadcast"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_broadcast" />
+
+</menu>

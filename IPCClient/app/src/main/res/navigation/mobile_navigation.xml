@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_aidl">
+
+    <fragment
+        android:id="@+id/navigation_aidl"
+        android:name="com.pmirkelam.ipcclient.ui.aidl.AidlFragment"
+        android:label="@string/title_aidl"
+        tools:layout="@layout/fragment_aidl" />
+
+    <fragment
+        android:id="@+id/navigation_messenger"
+        android:name="com.pmirkelam.ipcclient.ui.messenger.MessengerFragment"
+        android:label="@string/title_messenger"
+        tools:layout="@layout/fragment_messenger" />
+
+    <fragment
+        android:id="@+id/navigation_broadcast"
+        android:name="com.pmirkelam.ipcclient.ui.broadcast.BroadcastFragment"
+        android:label="@string/title_broadcast"
+        tools:layout="@layout/fragment_broadcast" />
+</navigation>
