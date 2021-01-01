@@ -23,5 +23,12 @@
                 <action android:name="messengerexample" />
             </intent-filter>
         </service>
+        <receiver android:name=".IPCBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.pmirkelam.ipcclient" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
