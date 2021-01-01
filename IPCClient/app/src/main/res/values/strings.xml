@@ -10,4 +10,6 @@
     <string name="title_messenger">Messenger</string>
     <string name="title_broadcast">Broadcast</string>
     <string name="connect_via_messenger">Connect via Messenger</string>
+    <string name="send_broadcast">Send Broadcast</string>
+    <string name="broadcast_sent">Broadcast Sent</string>
 </resources>
