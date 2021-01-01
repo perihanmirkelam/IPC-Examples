@@ -9,4 +9,5 @@
     <string name="title_aidl">AIDL</string>
     <string name="title_messenger">Messenger</string>
     <string name="title_broadcast">Broadcast</string>
+    <string name="connect_via_messenger">Connect via Messenger</string>
 </resources>

@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Connect via Messenger"
+        android:text="@string/connect_via_messenger"
         android:textSize="18sp" />
 
     <LinearLayout
